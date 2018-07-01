@@ -20,9 +20,11 @@ end
 rooms 
 end
 def printer(names)
-  names.each do
+  counter=0 
+   while names.each 
 batch_badge_creator(names)
-puts @batch[0]
+puts @batch[counter]
+counter+=1
 end
 
 end
