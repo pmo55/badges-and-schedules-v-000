@@ -11,10 +11,10 @@ end
 @batch
 end
 def assign_rooms(names)
-  rooms=[]
+  @rooms=[]
   counter =1
   names.collect do |name|
- rooms <<  "Hello, #{name}! You'll be assigned to room #{counter}!"
+@rooms <<  "Hello, #{name}! You'll be assigned to room #{counter}!"
     counter +=1
 end
 rooms 
@@ -25,7 +25,7 @@ def printer(names)
 batch_badge_creator(names)
 assign_rooms(names)
 puts @batch[counter]
-puts rooms[counter]
+puts @rooms[counter]
 counter +=1
 end
 
