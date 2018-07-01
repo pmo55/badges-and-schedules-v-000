@@ -23,7 +23,9 @@ def printer(names)
   counter=0 
    while counter <=6 
 batch_badge_creator(names)
+assign_rooms(names)
 puts @batch[counter]
+
 counter +=1
 end
 
