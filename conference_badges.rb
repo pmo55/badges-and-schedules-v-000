@@ -22,7 +22,7 @@ end
 def printer(names)
   names.each do
 batch_badge_creator(names)
-puts @batch
+puts @batch[0]
 end
 
 end
