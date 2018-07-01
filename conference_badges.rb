@@ -25,7 +25,7 @@ def printer(names)
 batch_badge_creator(names)
 assign_rooms(names)
 puts @batch[counter]
-
+puts rooms[counter]
 counter +=1
 end
 
