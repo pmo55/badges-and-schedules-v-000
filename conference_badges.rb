@@ -24,7 +24,6 @@ def printer(names)
    while names.each 
 batch_badge_creator(names)
 puts @batch[counter]
-counter+=1
 end
 
 end
