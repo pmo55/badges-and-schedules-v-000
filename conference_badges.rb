@@ -17,7 +17,7 @@ def assign_rooms(names)
 @rooms <<  "Hello, #{name}! You'll be assigned to room #{counter}!"
     counter +=1
 end
-rooms 
+@rooms 
 end
 def printer(names)
   counter=0 
