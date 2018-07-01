@@ -4,11 +4,11 @@ return "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(names)
-  batch=[]
+  @batch=[]
 names.each do |name|
-  batch<< badge_maker(name)
+ @batch<< badge_maker(name)
 end
-batch
+@batch
 end
 def assign_rooms(names)
   rooms=[]
@@ -22,6 +22,6 @@ end
 def printer(names)
   
 batch_badge_creator(names)
-puts batch[0]
+puts @batch
 
 end
